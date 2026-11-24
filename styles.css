@@ -160,6 +160,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; text-wrap: 
 .portrait { float: right; width: 13rem; margin: 0.4rem 0 1rem 2rem; }
 .portrait img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--grid-strong); }
 @media (max-width: 640px) { .portrait { float: none; width: min(100%, 15rem); margin: 0 0 1.75rem; } }
+.entry-fig { margin: 1.25rem 0 0; max-width: 30rem; }
+.entry-fig img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--grid-strong); }
+.entry-fig figcaption { color: var(--ink-3); font-size: 0.95rem; margin-top: 0.5rem; }
 .read h2 { font-size: clamp(2rem, 4vw, 2.5rem); line-height: 1.15; margin: clamp(4rem, 10vh, 5.5rem) 0 2rem; letter-spacing: -0.005em; }
 .read h3 { font-size: 1.5rem; line-height: 1.25; margin: 2.75rem 0 0.35rem; font-weight: 500; }
 .read .meta { color: var(--ink-3); font-size: 1.05rem; margin-bottom: 0.9rem; }
