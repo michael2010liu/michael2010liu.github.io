@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Liu · in pursuit of understanding the human brain</title>
+  <meta name="description" content="Michael Liu is a student researcher in cognitive neuroscience working with EEG, machine learning and simulation. Most recently in the Parra Lab at the City College of New York.">
+  <meta property="og:title" content="Michael Liu">
+  <meta property="og:description" content="In pursuit of understanding the human brain.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#faf6ee">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/brygada.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/gantari.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400..600;1,400..600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <a class="skip" href="#research">Skip to research</a>
+
+  <!-- Butterflies scattered in the margins, behind everything. --x: 0 = page edge, 1 = beside the text column; --y: % down the page -->
+  <div class="flutter" aria-hidden="true">
+    <img class="l" src="assets/butterflies/1.webp" alt="" style="--x:.55; --y:3%; --w:150px; --r:-8deg">
+    <img class="r" src="assets/butterflies/4.webp" alt="" style="--x:.35; --y:6%; --w:130px; --r:12deg">
+    <img class="l" src="assets/butterflies/12.webp" alt="" style="--x:.15; --y:13%; --w:70px; --r:18deg">
+    <img class="r" src="assets/butterflies/2.webp" alt="" style="--x:.75; --y:15%; --w:80px; --r:-14deg">
+    <img class="l" src="assets/butterflies/7.webp" alt="" style="--x:.4; --y:22%; --w:165px; --r:6deg">
+    <img class="r" src="assets/butterflies/10.webp" alt="" style="--x:.2; --y:27%; --w:75px; --r:-20deg">
+    <img class="r" src="assets/butterflies/9.webp" alt="" style="--x:.6; --y:34%; --w:140px; --r:8deg">
+    <img class="l" src="assets/butterflies/3.webp" alt="" style="--x:.8; --y:38%; --w:95px; --r:-10deg">
+    <img class="l" src="assets/butterflies/11.webp" alt="" style="--x:.2; --y:48%; --w:120px; --r:22deg">
+    <img class="r" src="assets/butterflies/5.webp" alt="" style="--x:.3; --y:52%; --w:160px; --r:-6deg">
+    <img class="l" src="assets/butterflies/13.webp" alt="" style="--x:.65; --y:60%; --w:80px; --r:-16deg">
+    <img class="r" src="assets/butterflies/6.webp" alt="" style="--x:.7; --y:66%; --w:105px; --r:14deg">
+    <img class="l" src="assets/butterflies/8.webp" alt="" style="--x:.35; --y:72%; --w:130px; --r:-4deg">
+    <img class="r" src="assets/butterflies/12.webp" alt="" style="--x:.25; --y:80%; --w:70px; --r:-24deg">
+    <img class="l" src="assets/butterflies/2.webp" alt="" style="--x:.7; --y:85%; --w:85px; --r:10deg">
+    <img class="r" src="assets/butterflies/1.webp" alt="" style="--x:.55; --y:91%; --w:125px; --r:16deg">
+  </div>
+
+  <header class="top">
+    <div class="top-inner">
+      <a class="wordmark" href="#"><svg class="mark" aria-hidden="true" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14.5"/><path d="M4 17h5l2.2-6.5 3.3 12 3.2-9 2.1 5.5 1.8-2H28"/></svg>Michael Liu</a>
+      <nav aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#built">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <p class="hero-name" data-enter><svg class="mark mark-lg" aria-hidden="true" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14.5"/><path d="M4 17h5l2.2-6.5 3.3 12 3.2-9 2.1 5.5 1.8-2H28"/></svg>Michael Liu</p>
+        <h1 id="hero-title" class="pursuit"><span class="w" style="--i:0">in</span> <span class="w" style="--i:1">pursuit</span> <span class="w" style="--i:2">of</span> <span class="w" style="--i:3">understanding</span> <span class="w" style="--i:4">the</span> <span class="w" style="--i:5">human</span> <span class="w" style="--i:6">brain.</span></h1>
+        <p class="hero-sub" data-enter><em>i'm a student researcher concentrating in cognitive and computational neuroscience. my specific curiosities are in memory encoding, spatial navigation, and alzheimer's. to contact me, <a href="mailto:michael2010liu@gmail.com">email me here</a>.</em></p>
+        <p class="hero-new" data-enter><span>New:</span> <a href="#asgsr">Poster at ASGSR, December 2026</a></p>
+      </div>
+      <a class="scroll-cue" href="#intro">Scroll for my research<svg aria-hidden="true" viewBox="0 0 16 40"><path d="M8 1v37M3 33l5 5 5-5"/></svg></a>
+    </section>
+
+    <article class="read">
+      <section id="intro" class="intro" aria-label="Introduction">
+        <figure class="portrait">
+          <img src="assets/michael.webp" width="480" height="600" alt="Michael Liu in a pinstripe suit and light blue tie, smiling, in a stadium lit pink at night." loading="lazy">
+        </figure>
+        <p>I work on the brain with EEG, machine learning and simulation, and I'm now curious and learning about fMRI. Most recently I analyzed EEG in the Parra Lab at the City College of New York, taking recordings of people reading and navigating virtual spaces from raw signal to models of how the brain tracks what it perceives.</p>
+        <p>The thread through my work is the human brain and body under complex or extreme conditions, studied computationally: in a lab's EEG recordings, in low Earth orbit on the ISS, and in the datasets that train diagnostic models.</p>
+        <p>Outside of research and academics, I enjoy playing volleyball, hiking, trying new foods, and drinking boba.</p>
+      </section>
+
+      <figure class="montage-fig">
+        <div class="montage" role="group" aria-label="Synthetic EEG montage">
+          <div class="montage-bar">
+            <div class="state" data-active="closed" role="group" aria-label="Recording condition">
+              <button type="button" class="state-btn" data-state="closed" aria-pressed="true">Eyes closed</button>
+              <button type="button" class="state-btn" data-state="open" aria-pressed="false">Eyes open</button>
+            </div>
+            <div class="bar-right">
+              <output class="readout" aria-live="off">Hover a channel</output>
+              <button type="button" class="pause eeg-pause" aria-pressed="false" aria-label="Pause the trace">
+                <svg class="i-pause" aria-hidden="true" viewBox="0 0 16 16"><path d="M5.5 3.5v9M10.5 3.5v9"/></svg>
+                <svg class="i-play" aria-hidden="true" viewBox="0 0 16 16"><path d="M5 3.5 12 8l-7 4.5z"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="montage-plot">
+            <canvas id="eeg" role="img" aria-label="Eight channels of synthetic EEG. With eyes closed, a 10 hertz alpha rhythm is strongest over the occipital channels O1 and O2. With eyes open it fades and blinks appear in the frontal channels."></canvas>
+          </div>
+        </div>
+        <figcaption><em>With eyes closed, the 10&nbsp;Hz alpha rhythm is strongest over the back of the head (O1, O2); open the eyes and it fades, and blinks appear frontally. Hans Berger first recorded this in 1929.</em></figcaption>
+      </figure>
+
+      <section id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Research</h2>
+
+        <div class="entry">
+          <h3>EEG and virtual-reality research on neural encoding during virtual spatial navigation</h3>
+          <p class="meta"><em>Completed · Summer 2026 · Parra Lab, City College of New York</em></p>
+          <p>Research internship through AEOP at CCNY, in the lab of Dr. Lucas Parra, supervised by Dr. Vinay Raghavan. I took EEG from raw recordings through preprocessing, epoching and time-frequency analysis to temporal response function (TRF) models that relate a stimulus to the brain's response, for a naturalistic reading study and a VR navigation study. Methods: MNE-Python, time-frequency analysis, TRF models.</p>
+        </div>
+
+        <div class="entry">
+          <h3>Whose brains neuroscience studies</h3>
+          <p class="meta"><em>In progress · 2026 · Commentary Paper</em></p>
+          <p>An argumentative review of neuroscience's sampling problem: most findings come from Western, educated, industrialized, rich and democratic (WEIRD) samples. I follow what that does to the diagnostic tools and machine learning models global health depends on.</p>
+        </div>
+
+        <div class="entry" id="asgsr">
+          <h3>Effects of microgravity on L. Acidophilus growth</h3>
+          <p class="meta"><em>Poster · December 2025 · ASGSR annual meeting</em></p>
+          <p>A poster for the American Society for Gravitational and Space Research on growing stomach bacteria in space.</p>
+        </div>
+
+        <div class="entry" id="asgsr">
+          <h3>Evaluating 3D-printed radiation shielding for long-term space travel</h3>
+          <p class="meta"><em>Poster · December 2026 · ASGSR annual meeting</em></p>
+          <p>A poster for the American Society for Gravitational and Space Research on 3D-printed shielding designs for long-duration missions.</p>
+        </div>
+      </section>
+
+
+
+
+      <div class="ornament" aria-hidden="true"><svg class="mark" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14.5"/><path d="M4 17h5l2.2-6.5 3.3 12 3.2-9 2.1 5.5 1.8-2H28"/></svg></div>
+
+      <section id="built" aria-labelledby="built-title">
+        <h2 id="built-title">Projects I've built</h2>
+        <p>Tools for learning and research, mostly so other people can see what I find interesting about the brain.</p>
+        <dl class="builds">
+          <dt>MBMNeuro</dt>
+          <dd>A simulation of the brain and nervous system for people new to neuroscience, built on real MRI surfaces (Conte69 cortex, ICBM152 cerebellum and brainstem) with 3D neuron and synapse scenes.</dd>
+          <dt>LearnBySignal</dt>
+          <dd>An AI tool for analyzing research papers, to make dense work easier to get into, especially outside your own field.</dd>
+          <dt>Monet</dt>
+          <dd>A desktop assistant that can see your screen, so you can ask about what you're working on without copying it anywhere.</dd>
+          <dt>Cardiac arrhythmia prediction</dt>
+          <dd>A machine learning model that predicts cardiac arrhythmia from ECG signals, built as a step toward early detection of heart disease.</dd>
+        </dl>
+      </section>
+
+      <section id="contact" class="closing" aria-labelledby="contact-title">
+        <h2 id="contact-title">Say hello</h2>
+        <p>If you're curious about the brain too, whether you run a lab, are working on something of your own, or just want to talk about it, write to me. I read everything.</p>
+        <p class="mail-line"><a class="mail" href="mailto:michael2010liu@gmail.com">michael2010liu@gmail.com</a></p>
+        <!-- Replace the # links with your profiles, or delete the ones you don't use -->
+        <p class="elsewhere"><a href="https://github.com/michael2010liu">GitHub</a> <a href="https://www.linkedin.com/in/michael-liu-054966323/">LinkedIn</a> <a href="https://damp-glitter-378.linkyhost.page">CV (PDF)</a></p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="foot">
+    <span>© 2026 Michael Liu · Bay Area, California</span>
+    <a href="#">Back to top</a>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
