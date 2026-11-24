@@ -161,6 +161,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; text-wrap: 
 .portrait img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--grid-strong); }
 @media (max-width: 640px) { .portrait { float: none; width: min(100%, 15rem); margin: 0 0 1.75rem; } }
 .entry-fig { margin: 1.25rem 0 0; max-width: 30rem; }
+.entry-fig-wide { max-width: none; }
 .entry-fig img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--grid-strong); }
 .entry-fig figcaption { color: var(--ink-3); font-size: 0.95rem; margin-top: 0.5rem; }
 .read h2 { font-size: clamp(2rem, 4vw, 2.5rem); line-height: 1.15; margin: clamp(4rem, 10vh, 5.5rem) 0 2rem; letter-spacing: -0.005em; }
