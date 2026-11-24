@@ -219,3 +219,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; text-wrap: 
   .state::before, .top { transition: none; }
   .state-btn:active, .pause:active { transform: none; }
 }
+
+/* Custom cursors in the site's ink and paper; the EEG canvas keeps its crosshair */
+@media (pointer: fine) {
+  html { cursor: url("assets/cursor/arrow.svg") 3 2, auto; }
+  a, button, .state-btn, .pause { cursor: url("assets/cursor/link.svg") 14 14, pointer; }
+}
